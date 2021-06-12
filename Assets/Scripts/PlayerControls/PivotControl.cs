@@ -11,7 +11,6 @@ public class PivotControl : MonoBehaviour
 
     Vector2 mouseInput;
     Vector2 stickInput;
-    private bool _isGamepad;
 
     void Awake()
     {
@@ -23,7 +22,6 @@ public class PivotControl : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        _isGamepad = false;
     }
 
     void FixedUpdate()

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2080,7 +2080,7 @@ PrefabInstance:
     - target: {fileID: 2849381826648548570, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2849381826918727042, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
@@ -2100,7 +2100,7 @@ PrefabInstance:
     - target: {fileID: 2849381826918727043, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2849381827246822780, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
@@ -2120,7 +2120,7 @@ PrefabInstance:
     - target: {fileID: 2849381827246822781, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2849381827312016711, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
@@ -2140,7 +2140,7 @@ PrefabInstance:
     - target: {fileID: 2849381827312016712, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2849381827325572453, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
@@ -2165,7 +2165,7 @@ PrefabInstance:
     - target: {fileID: 2849381827332753410, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5344731685576775812, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
@@ -2365,7 +2365,7 @@ PrefabInstance:
     - target: {fileID: 8857300470267991648, guid: 45d8f5d6189c6b942a2d12a465ece653,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 55.5
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45d8f5d6189c6b942a2d12a465ece653, type: 3}

@@ -109,7 +109,7 @@ public class GM : MonoBehaviour
         Vector3 targetPos = new Vector3(Random.Range(_bounds.x, _bounds.x * -1), Random.Range(_bounds.y, _bounds.y * -1), 0); //Find a random point in bounds
 
         // If that point is too close to player, find a different point
-        while (Vector3.Distance(targetPos, playerChar.transform.position) <= 4.5)
+        while (Vector3.Distance(targetPos, playerChar.transform.position) <= 7)
         {
             targetPos = new Vector3(Random.Range(_bounds.x, _bounds.x * -1), Random.Range(_bounds.y, _bounds.y * -1), 0);
             yield return null;
@@ -132,7 +132,7 @@ public class GM : MonoBehaviour
 
         if (killCount == 5)
         {
-            spawnDelay = 2f;
+            spawnDelay = 1.7f;
         }
 
         if (killCount == 8)
@@ -143,7 +143,7 @@ public class GM : MonoBehaviour
 
         if (killCount == 10)
         {
-            spawnDelay = 1.7f;
+            spawnDelay = 1.2f;
         }
 
         if (killCount == 15)

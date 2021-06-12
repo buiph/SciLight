@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -24,20 +25,7 @@ public class LevelManager : MonoBehaviour
         {
             Instance = this;
         }
-    }
 
-    public void StartGame()
-    {
-
-    }
-
-    public void RestartGame()
-    {
-
-    }
-
-    public void GameOver()
-    {
-        
+        SceneManager.LoadScene("StartGame", LoadSceneMode.Additive);
     }
 }
