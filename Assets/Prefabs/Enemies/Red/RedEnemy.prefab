@@ -329,7 +329,7 @@ MonoBehaviour:
   enemyShotPrefab: {fileID: 5329878409529353862, guid: 59e20c0e062a391489e9e8584ff796ba,
     type: 3}
   bulletSpeed: 12
-  moveSpeed: 2.5
+  moveSpeed: 2
   shotDelay: 1.2
 --- !u!114 &161656599917087587
 MonoBehaviour:

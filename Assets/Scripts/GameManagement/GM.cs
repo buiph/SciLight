@@ -135,18 +135,17 @@ public class GM : MonoBehaviour
             spawnDelay = 1.7f;
         }
 
-        if (killCount == 8)
-        {
-            _upperRange = 2;
-            spawnCap = 4;
-        }
-
         if (killCount == 10)
         {
-            spawnDelay = 1.2f;
+            _upperRange = 2;
         }
 
         if (killCount == 15)
+        {
+            spawnDelay = 1.5f;
+        }
+
+        if (killCount == 20)
         {
             spawnCap = 4;
         }
